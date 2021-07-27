@@ -1,0 +1,26 @@
+version: '3.1'
+
+services:
+  mypostgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: mike
+      POSTGRES_PASSWORD: abcd1234
+      POSTGRES_DB: mikesdb
+    networks:
+      - dbnetwork
+    ports:
+      - 5432:5432
+  adminer:
+    image: adminer:latest
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - dbnetwork
+
+
+
+networks:
+  dbnetwork:

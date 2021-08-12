@@ -1,0 +1,5 @@
+SELECT * FROM SPACESHIP ORDER BY fuel desc;
+
+SELECT SHAPE, SUM(FUEL)
+FROM spaceship
+GROUP BY shape;

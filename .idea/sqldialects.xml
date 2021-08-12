@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/sql/CREATE_TABLE_SPACESHIP.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/DELETE_FROM_SPACESHIP.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/INSERT_INTO_SPACESHIP.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/UPDATE_SPACESHIP.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/sql/relation/CREATE_TABLE_SPACESHIP_CAPTAIN_RELATION.sql" dialect="PostgreSQL" />
+    <file url="PROJECT" dialect="PostgreSQL" />
+  </component>
+</project>
